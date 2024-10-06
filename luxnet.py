@@ -82,7 +82,7 @@ def authenticate():
     print(WHITE + "Welcome to Luxnet" + BLUE + " root" + RESET )
     print(WHITE + "====================================" + RESET )
     
-    for _ in range(3):  # Allow up to 3 attempts
+    for _ in range(3):
         username = input(GRAY + "Username: " + RESET).strip()
         password = input(GRAY + "Password: " + RESET).strip()
         
